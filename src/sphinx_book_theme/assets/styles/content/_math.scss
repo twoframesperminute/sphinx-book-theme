@@ -2,7 +2,8 @@
 div.math {
   position: relative;
   display: flex;
-  flex-direction: row-reverse;
+  justify-content: center;
+  // flex-direction: row-reverse;
   align-items: center;
 
   .headerlink {

@@ -20,6 +20,7 @@
 </div>
 
 <!-- Table of contents -->
+{% if show_local_nav %}
 <div class="col-md-3 bd-toc show noprint">
     {%- if page_toc | length >= 1 %}
     <div class="tocsection onthispage pt-5 pb-3">
@@ -30,3 +31,4 @@
     </nav>
     {%- endif %}
 </div>
+{% endif %}
